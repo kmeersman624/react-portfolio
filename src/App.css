@@ -16,3 +16,18 @@
 .App-link {
   color: #61dafb;
 }
+
+.headerimg {
+ width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.project-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
