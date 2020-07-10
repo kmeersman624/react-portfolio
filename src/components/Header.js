@@ -1,9 +1,10 @@
 import React from 'react'
+import '../App.css'
 
 function Header() {
     return (
         <div>
-            <img className="headerimg" alt="header" src="/img/katelogo.PNG" fluid />
+            <img className="header-img" alt="header" src="/img/headerimg.PNG" fluid />
         </div>
     )
 }

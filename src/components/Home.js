@@ -5,14 +5,14 @@ function Home() {
   return (
     <div className="About">
       <main className="container-fluid m-5 bg-light">
-        <header className="text-info">
+        <header className="about">
           <h1>About Me</h1>
         </header>
         <div className="row  mb-5">
-          <div className="col-md-4">
+          <div className="profile col-md-3">
             <img className="kateimg" alt="kate" src="/img/katebw.jpg" />
           </div>
-          <div className="col-md-8">
+          <div className="about col-md-7 h5">
             I was born and raised in Colorado, which is where I continue to
             reside, after a few stints in Maui, Calgary, and Vail. I originally
             went to college for hospitality, focusing on a career in Event Sales
@@ -23,52 +23,33 @@ function Home() {
             out my project portfolio for recent applications I have been working
             on. Reach out directly for more information!
             <br />
+            <br />
             <div className="row">
               <div className="col-md-12">
-                Technical Skills:
+                <h5><b>Technical Skills:</b></h5>
+                Computer Science applied to JavaScript: <i>Design Patterns • Algorithms</i>
                 <br />
-                Computer Science applied to JavaScript: • Design Patterns •
-                Algorithms
                 <br />
-                Browser Based Technologies • HTML • CSS • JavaScript • jQuery •
-                Responsive Design • Bootstrap • Handlebars • Firebase • Cookies,
-                Local Storage • React.js
+                Browser Based Technologies: <i>HTML • CSS • JavaScript • jQuery • Responsive Design • Bootstrap • Handlebars </i>
                 <br />
-                Deployment • Heroku • Git
+                Deployment: <i>Heroku • Git</i>
                 <br />
-                Locally Popular MVC Framework • C#/ASP.NET • Python • Django •
-                PHP • Laravel
                 <br />
-                Databases • MySQL • MongoDB Server-Side Development • Express •
-                Security and Session Storage • User Authentication • MERN Stack
-                (MongoDB, Express.js, React.js, Node.js)
+                Databases: <i>MySQL • MongoDB</i>
                 <br />
-                Quality Assurance • Writing Tests
                 <br />
-                Internet Marketing • Semantic HTML
+                Server-Side Development: <i>Express • Security and Session Storage • User Authentication • MERN Stack (MongoDB, Express.js, React.js, Node.js)</i>
+                <br />
+                <br />
+                Quality Assurance: <i>Writing Tests</i>
+                <br />
+                <br />
+               Internet Marketing: <i>Semantic HTML</i>
                 <br />
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-md-6">
-              <i className="fab fa-linkedin"></i>
-              LinkedIn Profile
-              <a
-                className=" text-info mr-0"
-                href="https://www.linkedin.com/in/kate-meersman-2a66a2155/"
-              ></a>
-            </div>
-            <div className="col-md-6">
-              <i className="fab fa-github"></i>
-              Github Profile
-              <a
-                className=" text-info mr-0"
-                href="https://github.com/kmeersman624s"
-              ></a>
-            </div>
           </div>
-        </div>
       </main>
     </div>
   );
