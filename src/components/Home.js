@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import katebw from "../img/headerimg.png";
+import katebw from "../img/katebw.jpg";
 
 
 function Home() {
@@ -12,7 +12,7 @@ function Home() {
         </header>
         <div className="row  mb-5">
           <div className="profile col-md-3">
-            <img className="kateimg" alt="kate" src="/img/katebw.jpg" />
+            <img className="kateimg" alt="kate" src={katebw} />
           </div>
           <div className="about col-md-7 h5">
             I was born and raised in Colorado, which is where I continue to

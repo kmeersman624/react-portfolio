@@ -1,6 +1,13 @@
 import React from "react";
 import "../App.css";
 import menu from "../img/menu.png"
+import login from "../img/login.PNG";
+import directory from "../img/directory.PNG";
+import budget from "../img/budget.PNG";
+import burger from "../img/eatda.PNG";
+import planner from "../img/workdayscheduler.PNG";
+import workout from "../img/dashboard.PNG";
+
 
 function Projects() {
   return (
@@ -22,7 +29,7 @@ function Projects() {
           <div className="col-sm-6 mt-3">
             <a href="https://safe-badlands-31285.herokuapp.com/">
               <img
-                src="/img/login.png"
+                src={login}
                 alt="Ilogin page for password database"
                 className="img-thumbnail thumbnail"
               />
@@ -31,7 +38,7 @@ function Projects() {
           <div className="col-sm-6 mt-3">
             <a href="https://kmeersman624.github.io/React-Employee-Directory/">
               <img
-                src="/img/directory.PNG"
+                src={directory}
                 alt="directory"
                 className="img-thumbnail thumbnail"
               />
@@ -40,7 +47,7 @@ function Projects() {
           <div className="col-sm-6 mt-3">
             <a href="https://secure-eyrie-61403.herokuapp.com/">
               <img
-                src="/img/budget.PNG"
+                src={budget}
                 alt="budget"
                 className="img-thumbnail thumbnail"
               />
@@ -49,7 +56,7 @@ function Projects() {
           <div className="col-sm-6 mt-3">
             <a href="https://sleepy-plateau-19044.herokuapp.com/burgers">
               <img
-                src="/img/eatda.PNG"
+                src={burger}
                 alt="burger"
                 className="img-thumbnail thumbnail"
               />
@@ -58,7 +65,7 @@ function Projects() {
           <div className="col-sm-6 mt-3">
             <a href="https://kmeersman624.github.io/Work-Day-Scheduler/">
               <img
-                src="/img/workdayscheduler.PNG"
+                src={planner}
                 alt="day planner"
                 className="img-thumbnail thumbnail"
               />
@@ -67,7 +74,7 @@ function Projects() {
           <div className="col-sm-6 mt-3">
             <a href="https://murmuring-scrubland-28081.herokuapp.com/">
               <img
-                src="/img/dashboard.PNG"
+                src={workout}
                 alt="workout dashboard"
                 className="img-thumbnail thumbnail"
               />
