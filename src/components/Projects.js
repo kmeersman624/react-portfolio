@@ -13,7 +13,7 @@ function Projects() {
             <a href="https://kmeersman624.github.io/Project-1/">
               <img
                 src="/img/menu.png"
-                alt="Image of date night generator"
+                alt="date night generator"
                 className="img-thumbnail thumbnail"
               />
             </a>
@@ -22,7 +22,7 @@ function Projects() {
             <a href="https://safe-badlands-31285.herokuapp.com/">
               <img
                 src="/img/login.png"
-                alt="Image of login page for password database"
+                alt="Ilogin page for password database"
                 className="img-thumbnail thumbnail"
               />
             </a>
@@ -31,7 +31,7 @@ function Projects() {
             <a href="https://kmeersman624.github.io/React-Employee-Directory/">
               <img
                 src="/img/directory.PNG"
-                alt="Image of directory"
+                alt="directory"
                 className="img-thumbnail thumbnail"
               />
             </a>
@@ -40,7 +40,7 @@ function Projects() {
             <a href="https://secure-eyrie-61403.herokuapp.com/">
               <img
                 src="/img/budget.PNG"
-                alt="Image of budget"
+                alt="budget"
                 className="img-thumbnail thumbnail"
               />
             </a>
@@ -49,7 +49,7 @@ function Projects() {
             <a href="https://sleepy-plateau-19044.herokuapp.com/burgers">
               <img
                 src="/img/eatda.PNG"
-                alt="Image of eat da burger"
+                alt="burger"
                 className="img-thumbnail thumbnail"
               />
             </a>
@@ -58,7 +58,7 @@ function Projects() {
             <a href="https://kmeersman624.github.io/Work-Day-Scheduler/">
               <img
                 src="/img/workdayscheduler.PNG"
-                alt="Image of day planner"
+                alt="day planner"
                 className="img-thumbnail thumbnail"
               />
             </a>
@@ -67,7 +67,7 @@ function Projects() {
             <a href="https://murmuring-scrubland-28081.herokuapp.com/">
               <img
                 src="/img/dashboard.PNG"
-                alt="Image of workout dashboard"
+                alt="workout dashboard"
                 className="img-thumbnail thumbnail"
               />
             </a>
