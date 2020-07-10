@@ -1,13 +1,12 @@
 import React from "react";
 import "../App.css";
-import menu from "../img/menu.png"
+import menu from "../img/menu.png";
 import login from "../img/login.PNG";
 import directory from "../img/directory.PNG";
 import budget from "../img/budget.PNG";
 import burger from "../img/eatda.PNG";
 import planner from "../img/workdayscheduler.PNG";
 import workout from "../img/dashboard.PNG";
-
 
 function Projects() {
   return (

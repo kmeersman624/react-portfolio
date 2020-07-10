@@ -16,10 +16,13 @@ function Contact() {
                 <i className="fab fa-linkedin"></i> LinkedIn Profile
               </a>
               <br />
-              <a href="./img/resume.pdf"><i class="fas fa-file-pdf"></i> Resume</a>
+              <a href="/img/resume.pdf">
+                <i class="fas fa-file-pdf"></i> Resume
+              </a>
               <br />
-              <a href="mailto:katie4682@yahoo.com"><i class="fas fa-envelope"></i> Email Me!</a>
- 
+              <a href="mailto:katie4682@yahoo.com">
+                <i class="fas fa-envelope"></i> Email Me!
+              </a>
             </div>
           </form>
         </div>
