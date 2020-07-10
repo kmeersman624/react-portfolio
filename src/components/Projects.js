@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import menu from "../img/menu.png"
 
 function Projects() {
   return (
@@ -12,7 +13,7 @@ function Projects() {
           <div className="col-sm-6">
             <a href="https://kmeersman624.github.io/Project-1/">
               <img
-                src="/img/menu.png"
+                src={menu}
                 alt="date night generator"
                 className="img-thumbnail thumbnail"
               />

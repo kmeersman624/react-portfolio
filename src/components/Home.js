@@ -1,5 +1,7 @@
 import React from "react";
 import "../App.css";
+import katebw from "../img/headerimg.png";
+
 
 function Home() {
   return (
