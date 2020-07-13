@@ -16,7 +16,7 @@
 
   ## Image
 
-  ![image of app](./public/img/reactport.PNG)
+  ![image of app](./src/img/reactport.PNG)
 
   ## License
   © 2020 Kate Meersman brand. All Rights Reserved.
