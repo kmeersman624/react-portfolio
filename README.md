@@ -3,7 +3,7 @@
   ## Description
   Project Development personal protfolio built with React.js.  Includes React Router and several dynamic components.  Focuses on projects built between May and July 2020.
 
-  Link to depolyed application: https://kmeersman624.github.io/React-Portfolio/
+  Link to depolyed application: https://kmeersman624.github.io/react-portfolio/
 
 
   ![GitHub repo size](https://img.shields.io/github/repo-size/kmeerman624/React-Employee-Directory)
