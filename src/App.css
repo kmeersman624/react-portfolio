@@ -55,7 +55,7 @@
   left: 45%;
   top: 90%;
   transform: translate(-50%, -50%);
-  background-color: rgb(252, 223, 228);
+  background-color: rgb(252, 223, 228, 0.8);
   border-style: inset;
   font-family: Oswald, sans-serif;
 }
@@ -109,7 +109,7 @@ img.project-image {
   left: 55%;
   top: 90%;
   transform: translate(-50%, -50%);
-  background-color: rgb(252, 223, 228);
+  background-color: rgb(252, 223, 228, 0.8);
   border-style: inset;
   font-family: Oswald, sans-serif;
 }

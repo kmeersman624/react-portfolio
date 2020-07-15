@@ -6,17 +6,17 @@ function Header() {
   return (
     <div className="header-container">
       <img className="header-img" alt="header" src={headerimg} />
-      <div className="header-btn">
+      <div className="header-btn rounded p-2">
         <a href="#portfolio" className="hdlink btn btn-default">
           PROJECTS
         </a>
       </div>
-      <div className="git-btn">
+      <div className="git-btn rounded p-1">
         <a className="links" href="https://github.com/kmeersman624">
           <i className="fab fa-github"></i> GitHub Profile
         </a>
       </div>
-      <div className="linked-btn">
+      <div className="linked-btn rounded p-1">
         <a
           class="links"
           href="https://www.linkedin.com/in/kate-meersman-2a66a2155/"
