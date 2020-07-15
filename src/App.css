@@ -1,10 +1,48 @@
-.header-img {
-  position: relative;
-  width: 100%;
-}
 .about {
   font-size: large;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.about-hed {
+  color: #8d8e8d;
+}
+.card {
+  box-shadow: 1.5px 3px 3px 1.5px #566782;
+  background: #fff;
+  margin: 10px;
+  width: 280px;
+  height: 300px;
+}
+.card-holder {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-links {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.card-title {
+  display: flex;
+    color: #414042;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
 }
 .container {
   display: flex;
@@ -12,23 +50,89 @@
   flex-direction: column;
   padding: 10px;
 }
+.git-btn {
+  position: absolute;
+  left: 45%;
+  top: 90%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(252, 223, 228);
+  border-style: inset;
+  font-family: Oswald, sans-serif;
+}
+h1,
+h3,
+h4 {
+  font-family: Oswald, sans-serif;
+  font-weight: 200;
+}
+.hdlink {
+  background-color: rgb(54, 55, 56);
+  color: white;
+}
+.header-container {
+  position: relative;
+  width: 100%;
+}
+.header-btn {
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+  font-family: Oswald, sans-serif;
+  font-weight: 400;
+  border-style: inset;
+}
+.header-img {
+  position: relative;
+  width: 100%;
+  opacity: 85%;
+}
+.headline-div {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heavy {
+  color: #414042;
+  font-weight: 400;
+}
+img.project-image {
+  width: 275px;
+  height: 200px;
+}
+.kateimg {
+  height: 350px;
+  width: auto;
+}
+.linked-btn {
+  position: absolute;
+  left: 55%;
+  top: 90%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(252, 223, 228);
+  border-style: inset;
+  font-family: Oswald, sans-serif;
+}
 
 .links {
   color: rgb(61, 60, 60);
   font-size: large;
 }
-.contactinfo {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
 
-.kateimg {
-  height: 350px;
-  width: auto;
+.portfolio-grid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
 }
-.profile {
+/* .profile {
   justify-content: center;
+} */
+.project-container {
+  min-height: 800px;
 }
-.project-images {
+.project-image {
   display: flex;
   flex-direction: column;
   align-items: center;

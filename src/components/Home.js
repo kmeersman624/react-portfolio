@@ -5,7 +5,7 @@ import katebw from "../img/katebw.jpg";
 
 function Home() {
   return (
-    <div className="About">
+    <div className="center">
       <main className="container-fluid m-5 bg-light">
         <header className="about">
           <h1>About Me</h1>
