@@ -5,7 +5,7 @@ import headerimg from "../img/headerimg.png";
 function Header() {
   return (
     <div className="header-container">
-      <img className="header-img" alt="header" src={headerimg} fluid />
+      <img className="header-img" alt="header" src={headerimg} />
       <div className="header-btn">
         <a href="#portfolio" className="hdlink btn btn-default">
           PROJECTS
