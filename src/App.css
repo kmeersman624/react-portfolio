@@ -16,7 +16,7 @@
   background: #fff;
   margin: 10px;
   width: 280px;
-  height: 300px;
+  height: auto;
 }
 .card-holder {
   display: flex;

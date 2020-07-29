@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import Card from "react-bootstrap/Card";
 import menu from "../img/menu.png";
 import login from "../img/login.PNG";
 import directory from "../img/directory.PNG";
@@ -18,42 +19,32 @@ function Projects() {
             MY <span className="heavy"> WORK </span>
           </h1>
         </div>
-        <div className="card-holder">
-          <div className="card">
-            <div className="card-front">
-              <div className="card-title">
-                <h5>Choogle</h5>
+        <Card style={{ width: "18rem" }}>
+          <Card.Img variant="top" src={choogle} />
+          <Card.Body>
+            <Card.Title>Choogle</Card.Title>
+            <Card.Text>
+              Secure location to reference and save favorite documents and cheat
+              sheets for web development. Built with MERN Stack, React-Router,
+              Materialize CSS.
+            </Card.Text>
+            <div className="card-links">
+              <div className="github-link">
+                <a href="https://github.com/kmeersman624/Choogle"> GitHub </a>
               </div>
-              <div className="project-image">
-                <img
-                  src={choogle}
-                  alt="choogle home page"
-                  className="project-image"
-                />
-              </div>
-              <div className="card-links">
-                <div className="github-link">
-                  <a href="https://github.com/kmeersman624/Choogle"> GitHub </a>
-                </div>
-                <div className="online-link">
-                  <a href="https://chooglefoo.herokuapp.com/login"> Live </a>
-                </div>
+              <div className="online-link">
+                <a href="https://chooglefoo.herokuapp.com/login"> Live </a>
               </div>
             </div>
-          </div>
-
-          <div className="card">
-            <div className="card-front">
-              <div className="card-title">
-                <h5>Covid Date Night</h5>
-              </div>
-              <div className="project-image">
-                <img
-                  src={menu}
-                  alt="date night generator"
-                  className="project-image"
-                />
-              </div>
+          </Card.Body>
+        </Card>
+        <Card style={{ width: "18rem" }}>
+          <Card.Img variant="top" src={menu} />
+          <Card.Body>
+            <Card.Title>COVID Date Night</Card.Title>
+            <Card.Text>
+              Application uses JavaScript and jQuery to make AJAX calls to 3rd party APIs utilizing Foudation CSS framework.
+            </Card.Text>
               <div className="card-links">
                 <div className="github-link">
                   <a href="https://kmeersman624.github.io/Project-1/">
@@ -65,8 +56,8 @@ function Projects() {
                   <a href="https://kmeersman624.github.io/Project-1/"> Live </a>
                 </div>
               </div>
-            </div>
-          </div>
+              </Card.Body>
+        </Card>
           <div className="card">
             <div className="card-front">
               <div className="card-title">
@@ -171,10 +162,10 @@ function Projects() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
+            </div>
+            </div>
+            </div>
+
   );
 }
 
