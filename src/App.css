@@ -22,20 +22,20 @@
   display: flex;
   flex-wrap: wrap;
 }
-.card-links {
+/* .card-links {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
   flex-direction: row;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: flex-end;
   padding-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
-}
+} */
 .card-title {
   display: flex;
-    color: #414042;
+    color: #605e63;
     justify-content: center;
     margin-top: 5px;
 }
