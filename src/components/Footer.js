@@ -4,7 +4,6 @@ var style = {
     backgroundColor: "#F8F8F8",
     borderTop: "1px solid #E7E7E7",
     textAlign: "center",
-    padding: "20px",
     position: "fixed",
     left: "0",
     bottom: "0",
@@ -25,6 +24,8 @@ function Footer({ children }) {
             <div style={phantom} />
             <div style={style}>
                 { children }
+                <a href= "katie4682@yahoo.com">katie4682@yahoo.com</a>
+                <br />
                 © 2020 Kate Meersman brand. All Rights Reserved.
             </div>
         </div>
