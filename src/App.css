@@ -22,17 +22,13 @@
   display: flex;
   flex-wrap: wrap;
 }
-/* .card-links {
-  display: -ms-flexbox;
+.card-footer {
   display: flex;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-pack: justify;
-  justify-content: flex-end;
+  justify-content: center;
   padding-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
-} */
+}
 .card-title {
   display: flex;
     color: #605e63;
