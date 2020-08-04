@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.f78e05f5.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.e9bcd55d.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.e9bcd55d.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.90fe00cb.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.c06fb4b4.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.c06fb4b4.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
-    "static/js/2.ad04b0aa.chunk.js": "/react-portfolio/static/js/2.ad04b0aa.chunk.js",
-    "static/js/2.ad04b0aa.chunk.js.map": "/react-portfolio/static/js/2.ad04b0aa.chunk.js.map",
+    "static/js/2.c2da86fc.chunk.js": "/react-portfolio/static/js/2.c2da86fc.chunk.js",
+    "static/js/2.c2da86fc.chunk.js.map": "/react-portfolio/static/js/2.c2da86fc.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.cfe7ffb303370ad020a8e1ad5d15ef18.js": "/react-portfolio/precache-manifest.cfe7ffb303370ad020a8e1ad5d15ef18.js",
+    "precache-manifest.41b750f49803b08cab7d3f93a6e989b5.js": "/react-portfolio/precache-manifest.41b750f49803b08cab7d3f93a6e989b5.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/main.f78e05f5.chunk.css.map": "/react-portfolio/static/css/main.f78e05f5.chunk.css.map",
-    "static/js/2.ad04b0aa.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.ad04b0aa.chunk.js.LICENSE.txt",
+    "static/css/main.90fe00cb.chunk.css.map": "/react-portfolio/static/css/main.90fe00cb.chunk.css.map",
+    "static/js/2.c2da86fc.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.c2da86fc.chunk.js.LICENSE.txt",
     "static/media/budget.PNG": "/react-portfolio/static/media/budget.e2980ac2.PNG",
     "static/media/choogle.PNG": "/react-portfolio/static/media/choogle.08f726b8.PNG",
     "static/media/dashboard.PNG": "/react-portfolio/static/media/dashboard.07805416.PNG",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.213b1880.js",
-    "static/js/2.ad04b0aa.chunk.js",
-    "static/css/main.f78e05f5.chunk.css",
-    "static/js/main.e9bcd55d.chunk.js"
+    "static/js/2.c2da86fc.chunk.js",
+    "static/css/main.90fe00cb.chunk.css",
+    "static/js/main.c06fb4b4.chunk.js"
   ]
 }
