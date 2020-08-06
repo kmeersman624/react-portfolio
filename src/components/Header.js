@@ -1,30 +1,35 @@
 import React from "react";
 import "../App.css";
 import headerimg from "../img/headerimg.png";
+import { Container, Row, Col, Image } from "react-bootstrap";
 
 function Header() {
   return (
-    <div className="header-container">
-      <img className="header-img" alt="header" src={headerimg} />
-      <div className="header-btn rounded p-2">
+    <Container className="header-container" fluid>
+      <Image className="header-img" alt="header" src={headerimg} fluid />
+      <Row>
+        <Col md={1} className="header-btn rounded p-2">
         <a href="#portfolio" className="hdlink btn btn-default">
           PROJECTS
         </a>
-      </div>
-      <div className="git-btn rounded p-1">
+        </Col>
+      </Row>
+      <Row>
+        <Col md={1} className="git-btn rounded p-1">
         <a className="links" href="https://github.com/kmeersman624">
-          <i className="fab fa-github"></i> GitHub Profile
+          <i className="fab fa-github"></i> GitHub
         </a>
-      </div>
-      <div className="linked-btn rounded p-1">
+        </Col>
+      <Col md={1} className="linked-btn rounded p-1">
         <a
-          class="links"
+          className="links"
           href="https://www.linkedin.com/in/kate-meersman-2a66a2155/"
-        >
-          <i className="fab fa-linkedin"></i> LinkedIn Profile
+          >
+          <i className="fab fa-linkedin"></i> LinkedIn
         </a>
-      </div>
-    </div>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

@@ -2,12 +2,12 @@
   font-size: large;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.about {
+/* .about {
   display: flex;
   justify-content: center;
   flex-direction: column;
   padding: 10px;
-}
+} */
 .about-hed {
   color: #8d8e8d;
 }
@@ -36,10 +36,7 @@
     margin-top: 5px;
 }
 
-.center {
-  display: flex;
-  justify-content: center;
-}
+
 .container {
   display: flex;
   justify-content: center;

@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import { Card, CardDeck, Container, Col, Row } from "react-bootstrap";
+import { Card, CardDeck, Container, Row } from "react-bootstrap";
 import menu from "../img/menu.png";
 import login from "../img/login.PNG";
 import directory from "../img/directory.PNG";
@@ -13,12 +13,12 @@ import workout from "../img/dashboard.PNG";
 function Projects() {
   return (
     <Container className="project-container" id="portfolio">
-      <Row className="portfolio-grid">
         <Row className="headline-div">
           <h1 className="about-hed">
             MY <span className="heavy"> WORK </span>
           </h1>
         </Row>
+      <Row className="portfolio-grid">
         <CardDeck className="deck">
           <Card style={{ width: "18rem" }}>
               <Card.Title>Choogle</Card.Title>
