@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import Projects from "./components/Projects";
 import Home from "./components/Home";
 import { Container } from "react-bootstrap";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Header />
       <Home />
       <Projects />
-      {/* <Footer /> */}
+      <Footer />
     </Container>
   );
 }
