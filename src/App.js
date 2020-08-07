@@ -4,16 +4,17 @@ import "./App.css";
 import Header from "./components/Header";
 import Projects from "./components/Projects";
 import Home from "./components/Home";
-import Footer from "./components/Footer";
+import { Container } from "react-bootstrap";
+// import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
+    <Container fluid>
       <Header />
       <Home />
       <Projects />
-      <Footer />
-    </div>
+      {/* <Footer /> */}
+    </Container>
   );
 }
 

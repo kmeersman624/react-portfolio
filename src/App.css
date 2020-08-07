@@ -36,11 +36,10 @@
     margin-top: 5px;
 }
 
-
-.container {
+.bio {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  /* flex-direction: column; */
   padding: 10px;
 }
 .git-btn {
@@ -74,7 +73,6 @@ h4 {
   transform: translate(-50%, -50%);
   font-family: Oswald, sans-serif;
   font-weight: 400;
-  border-style: inset;
 }
 .header-img {
   position: relative;
@@ -82,8 +80,8 @@ h4 {
 }
 .headline-div {
   margin-top: 15px;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 .heavy {
@@ -117,15 +115,17 @@ img.project-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
-  
+  /* width: 1200px; */
 }
 /* .profile {
   justify-content: center;
 } */
-.project-container {
+.projects {
   display: flex;
   align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   /* min-height: 800px; */
 }
 .project-image {

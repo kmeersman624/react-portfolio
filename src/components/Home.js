@@ -1,19 +1,18 @@
 import React from "react";
 import "../App.css";
 import katebw from "../img/katebw.jpg";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Row, Col, Image } from "react-bootstrap";
 
 function Home() {
   return (
-      <Container className="container-fluid m-5 bg-light">
-        <header className="about">
+      <Row className="bio fluid m-5 bg-light">
+        <Col xs={12} className="about">
           <h1>About Me</h1>
-        </header>
-        <Row className="row  mb-5">
-          <Col className="profile col-md-2 text-md-left text-center">
+        </Col>
+          <Col sm={2} className="profile text-md-left text-center">
             <Image className="kateimg" alt="kate" src={katebw} fluid />
           </Col>
-          <Col className="about col-md-10 text-md-left text-center h5">
+          <Col sm={6} className="about text-md-left text-center h5">
             I was born and raised in Colorado, which is where I continue to
             reside, after a few stints in Maui, Calgary, and Vail. I originally
             went to college for hospitality, focusing on a career in Event Sales
@@ -24,9 +23,8 @@ function Home() {
             out my project portfolio for recent applications I have been working
             on. Reach out directly for more information!
           </Col>
-        </Row>
-        <Row className="row">
-          <Col className="col-md-12">
+          <Col sm={4}/>
+          <Col>
             <h5>
               <b>Technical Skills:</b>
             </h5>
@@ -60,7 +58,6 @@ function Home() {
             <br />
           </Col>
         </Row>
-      </Container>
   );
 }
 
