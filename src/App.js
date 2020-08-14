@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 // import Navbar from './components/Navbar'
 import Header from "./components/Header";
+import Links from "./components/Links";
 import Projects from "./components/Projects";
 import Home from "./components/Home";
 import { Container } from "react-bootstrap";
@@ -12,6 +13,7 @@ function App() {
     <Container fluid>
     {/* <Navbar /> */}
       <Header />
+      {/* <Links /> */}
       <Home />
       <Projects />
       <Footer />

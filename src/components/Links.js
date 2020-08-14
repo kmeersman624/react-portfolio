@@ -1,12 +1,10 @@
 import React from "react";
 import "../App.css";
-import headerimg from "../img/headerimg.png";
-import { Image, Jumbotron, Row, Col } from "react-bootstrap";
+import { Row, Col, Image, Jumbotron } from "react-bootstrap";
 
-function Header() {
+function Links() {
   return (
-    <Jumbotron className="jumbo text-center">
-      <Image className="header-img" alt="header" src={headerimg} fluid />
+    <>
       <Row fluid>
         <Col className="header-btn rounded p-2">
           <a href="#portfolio" className="hdlink btn btn-default">
@@ -29,8 +27,7 @@ function Header() {
           </a>
         </Col>
       </Row>
-    </Jumbotron>
+    </>
   );
 }
-
-export default Header;
+export default Links;
