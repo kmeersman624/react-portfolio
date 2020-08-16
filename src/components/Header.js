@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 import headerimg from "../img/headerimg.png";
 import linkedicon from "../img/linkedin-icon.png";
-import giticon from "../img/github-icon.png";
+import giticon from "../img/github-icon.jpg";
 
 export default function Header() {
   return (
