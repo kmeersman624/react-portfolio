@@ -35,52 +35,19 @@
   justify-content: center;
   padding: 10px;
 }
-.git-btn {
-  position: absolute;
-  left: 45%;
-  top: 90%;
-  transform: translate(-50%, -50%);
-  background-color: rgb(252, 223, 228, 0.8);
-  font-family: Oswald, sans-serif;
-  flex-shrink: inherit;
-}
+
 h1,
 h5 {
   font-family: Oswald, sans-serif;
   font-weight: 200;
 }
-.hdlink {
-  background-color: rgb(54, 55, 56);
-  color: white;
-  margin-top: 375px;
-}
-.jumbo {
-  position: relative;
-  width: 100%;
-  justify-content: space-between;
-  /* min-height: 200px; */
-  padding: 0px !important;
-  margin-bottom: 0rem !important;
-}
-.header-btn {
-  position: absolute;
-  left: 50%;
-  top: 75%;
-  transform: translate(-50%, -50%);
-  font-family: Oswald, sans-serif;
-  font-weight: 400;
-}
+
 .project-btn {
   background-color: #fcdfe4cc;
   color: #414042;
   font-family: Oswald, sans-serif;
   margin-top: 375px;
 }
-.header-img {
-  position: relative;
-  width: 100%;
-}
-
 .heavy {
   color: #414042;
   font-weight: 400;
@@ -128,19 +95,12 @@ img.project-image {
 .skills {
   margin-top: 20px;
 }
-
-
-.pink {
-  background-color: #fcdfe4cc;
-}
-
 .bgImage {
   background-image: url("./img/headerimg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 @media only screen and (max-width: 900px) {
     .bgImage {
         background-image: url("./img/headerimg.png");
@@ -157,7 +117,6 @@ img.project-image {
         margin-top: 245px !important;
       }
   }
-
 .height {
   margin-top: 375px;
 }

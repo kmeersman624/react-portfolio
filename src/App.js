@@ -1,8 +1,6 @@
 import React from "react";
 import "./App.css";
-// import Navbar from './components/Navbar'
 import Header from "./components/Header";
-import Links from "./components/Links";
 import Projects from "./components/Projects";
 import Home from "./components/Home";
 import { Container } from "react-bootstrap";
@@ -11,9 +9,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <Container fluid>
-    {/* <Navbar /> */}
       <Header />
-      {/* <Links /> */}
       <Home />
       <Projects />
       <Footer />

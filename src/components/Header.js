@@ -1,6 +1,5 @@
 import React from "react";
 import "../App.css";
-import headerimg from "../img/headerimg.png";
 import linkedicon from "../img/linkedin-icon.png";
 import giticon from "../img/github-icon.jpg";
 
@@ -9,7 +8,9 @@ export default function Header() {
     <div className="container-fluid bgImage containerHeight">
       <div className="row text-center">
         <div className="col height">
-          <a className="project-btn rounded height h4" href="#portfolio">PROJECTS</a>
+          <a className="project-btn rounded height h4" href="#portfolio">
+            PROJECTS
+          </a>
         </div>
       </div>
 

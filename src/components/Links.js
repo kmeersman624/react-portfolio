@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import { Row, Col, Image, Jumbotron } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 function Links() {
   return (
