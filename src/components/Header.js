@@ -1,36 +1,32 @@
 import React from "react";
 import "../App.css";
 import headerimg from "../img/headerimg.png";
-import { Image, Jumbotron, Row, Col } from "react-bootstrap";
+import linkedicon from "../img/linkedin-icon.png";
+import giticon from "../img/github-icon.png";
 
-function Header() {
+export default function Header() {
   return (
-    <Jumbotron className="jumbo text-center">
-      <Image className="header-img" alt="header" src={headerimg} fluid />
-      <Row fluid>
-        <Col className="header-btn rounded p-2">
-          <a href="#portfolio" className="hdlink btn btn-default">
-            PROJECTS
+    <div className="container-fluid bgImage containerHeight">
+      <div className="row text-center">
+        <div className="col height">
+          <a className="project-btn rounded height h4" href="#portfolio">PROJECTS</a>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col-4 col-m-5"></div>
+        <div className="col-2 col-m-1 text-center mb-5">
+          <a href="https://www.linkedin.com/in/kate-meersman-2a66a2155/">
+            <img src={linkedicon} alt="" height="50px" />
           </a>
-        </Col>
-      </Row>
-      <Row fluid>
-        <Col xs={1} className="git-btn rounded p-2">
-          <a className="links" href="https://github.com/kmeersman624">
-            <i className="fab fa-github"></i>
+        </div>
+        <div className="col-2 col-m-1 text-center">
+          <a href="https://github.com/kmeersman624">
+            <img src={giticon} alt="" height="50px" />
           </a>
-        </Col>
-        <Col xs={1} className="linked-btn rounded p-2">
-          <a
-            className="links"
-            href="https://www.linkedin.com/in/kate-meersman-2a66a2155/"
-          >
-            <i className="fab fa-linkedin"></i>
-          </a>
-        </Col>
-      </Row>
-    </Jumbotron>
+        </div>
+        <div className="col-4 col-m-5"></div>
+      </div>
+    </div>
   );
 }
-
-export default Header;

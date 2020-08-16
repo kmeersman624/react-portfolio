@@ -52,6 +52,7 @@ h5 {
 .hdlink {
   background-color: rgb(54, 55, 56);
   color: white;
+  margin-top: 375px;
 }
 .jumbo {
   position: relative;
@@ -68,6 +69,12 @@ h5 {
   transform: translate(-50%, -50%);
   font-family: Oswald, sans-serif;
   font-weight: 400;
+}
+.project-btn {
+  background-color: #fcdfe4cc;
+  color: #414042;
+  font-family: Oswald, sans-serif;
+  margin-top: 375px;
 }
 .header-img {
   position: relative;
@@ -120,4 +127,37 @@ img.project-image {
 }
 .skills {
   margin-top: 20px;
+}
+
+
+.pink {
+  background-color: #fcdfe4cc;
+}
+
+.bgImage {
+  background-image: url("./img/headerimg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 900px) {
+    .bgImage {
+        background-image: url("./img/headerimg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
+      }
+
+      .containerHeight {
+        height: 375px;
+      }
+
+      .height {
+        margin-top: 245px !important;
+      }
+  }
+
+.height {
+  margin-top: 375px;
 }
