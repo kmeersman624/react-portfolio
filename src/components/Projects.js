@@ -19,7 +19,7 @@ function Projects() {
         MY <span className="heavy"> WORK </span>
       </h1>
       <CardDeck className="deck">
-        <Col md={4} xl={2}>
+        <Col md={6} xl={3}>
           <Card>
             <Card.Title>Choogle</Card.Title>
             <Card.Img variant="top" src={choogle} />
@@ -40,14 +40,14 @@ function Projects() {
             </Card.Footer>
           </Card>
         </Col>
-        <Col md={4} xl={2}>
+        <Col md={6} xl={3}>
           <Card>
             <Card.Title>Flawless Launches</Card.Title>
             <Card.Img variant="top" src={flawless} />
             <Card.Body>
               <Card.Text>
-                Single scroll website for Flawless Launches-Profitable Products
-                book by Dr. Eric C. Maass. Built with React and PHP.
+                Single scroll React/PHP website for Flawless Launches-Profitable Products
+                book by Dr. Eric C. Maass.
               </Card.Text>
             </Card.Body>
             <Card.Footer>
@@ -58,7 +58,7 @@ function Projects() {
             </Card.Footer>
           </Card>
         </Col>
-        <Col md={4} xl={2}>
+        <Col md={6} xl={3}>
           <Card>
             <Card.Title>COVID Date Night</Card.Title>
             <Card.Img variant="top" src={menu} />
@@ -79,7 +79,7 @@ function Projects() {
             </Card.Footer>
           </Card>
         </Col>
-        <Col md={4} xl={2}>
+        <Col md={6} xl={3}>
           <Card>
             <Card.Title>Open Sesame</Card.Title>
             <Card.Img variant="top" src={login} />
@@ -99,7 +99,7 @@ function Projects() {
             </Card.Footer>
           </Card>
         </Col>
-        <Col md={4} xl={2}>
+        <Col md={6} xl={3}>
           <Card>
             <Card.Title>React Directory</Card.Title>
             <Card.Img variant="top" src={directory} />
@@ -120,7 +120,7 @@ function Projects() {
             </Card.Footer>
           </Card>
         </Col>
-        <Col md={4} xl={2}>
+        <Col md={6} xl={3}>
           <Card>
             <Card.Title>Online/Offline Budget</Card.Title>
             <Card.Img variant="top" src={budget} />
@@ -140,7 +140,7 @@ function Projects() {
             </Card.Footer>
           </Card>
         </Col>
-        <Col md={4} xl={2}>
+        <Col md={6} xl={3}>
           <Card>
             <Card.Title>Weather Dashboard</Card.Title>
             <Card.Img variant="top" src={weather} />
@@ -158,7 +158,7 @@ function Projects() {
             </Card.Footer>
           </Card>
         </Col>
-        <Col md={4} xl={2}>
+        <Col md={6} xl={3}>
           <Card>
             <Card.Title>Exercise Tracker</Card.Title>
             <Card.Img variant="top" src={workout} />
