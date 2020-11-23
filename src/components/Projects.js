@@ -45,16 +45,15 @@ function Projects() {
             <Card.Img variant="top" src={flawless} />
             <Card.Body>
               <Card.Text>
-                Single scroll website for Flawless Launches-Profitable Products book by Dr. Eric C. Maass. Built with React and PHP. 
+                Single scroll website for Flawless Launches-Profitable Products
+                book by Dr. Eric C. Maass. Built with React and PHP.
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <Card.Link href="https://github.com/kmeersman624/Choogle">
+              <Card.Link href="https://github.com/kmeersman624/flawlesslaunches">
                 GitHub
               </Card.Link>
-              <Card.Link href="https://chooglefoo.herokuapp.com/login">
-                Live
-              </Card.Link>
+              <Card.Link href="https://flawlesslaunches.com/">Live</Card.Link>
             </Card.Footer>
           </Card>
         </Col>
