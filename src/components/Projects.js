@@ -7,6 +7,7 @@ import directory from "../img/directory.PNG";
 import budget from "../img/budget.PNG";
 import choogle from "../img/choogle.PNG";
 import flawless from "../img/flawlesspage.PNG";
+import weather from "../img/Weather.PNG";
 // import burger from "../img/eatda.PNG";
 // import planner from "../img/workdayscheduler.PNG";
 import workout from "../img/dashboard.PNG";
