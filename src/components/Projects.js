@@ -45,9 +45,7 @@ function Projects() {
             <Card.Img variant="top" src={flawless} />
             <Card.Body>
               <Card.Text>
-                Secure location to reference and save URLs and cheat sheets for
-                web development. Built with MERN Stack, React-Router,
-                Materialize CSS.
+                Single scroll website for Flawless Launches-Profitable Products book by Dr. Eric C. Maass. Built with React and PHP. 
               </Card.Text>
             </Card.Body>
             <Card.Footer>
