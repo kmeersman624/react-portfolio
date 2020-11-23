@@ -142,11 +142,29 @@ function Projects() {
         </Col>
         <Col md={4} xl={2}>
           <Card>
+            <Card.Title>Weather Dashboard</Card.Title>
+            <Card.Img variant="top" src={weather} />
+            <Card.Body>
+              <Card.Text>Uses OpenWeather API for travelers or other users to look up weather in various cities. Built with HTML/CSS, JavaSctipt and jQuery.
+              </Card.Text>
+            </Card.Body>
+            <Card.Footer>
+              <Card.Link href="https://github.com/kmeersman624/Weather-Dashboard">
+                GitHub
+              </Card.Link>
+              <Card.Link href="https://kmeersman624.github.io/Weather-Dashboard/">
+                Live
+              </Card.Link>
+            </Card.Footer>
+          </Card>
+        </Col>
+        <Col md={4} xl={2}>
+          <Card>
             <Card.Title>Exercise Tracker</Card.Title>
             <Card.Img variant="top" src={workout} />
             <Card.Body>
               <Card.Text>
-                This application allows the user to view/create/track daily
+                This application allows the user to view, create, and track daily exercise
                 workouts. Built with MongoDB, Mongoose, and Express.
               </Card.Text>
             </Card.Body>
