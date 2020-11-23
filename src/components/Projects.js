@@ -6,6 +6,7 @@ import login from "../img/login.PNG";
 import directory from "../img/directory.PNG";
 import budget from "../img/budget.PNG";
 import choogle from "../img/choogle.PNG";
+import flawless from "../img/flawlesspage.PNG";
 // import burger from "../img/eatda.PNG";
 // import planner from "../img/workdayscheduler.PNG";
 import workout from "../img/dashboard.PNG";
@@ -21,6 +22,27 @@ function Projects() {
           <Card>
             <Card.Title>Choogle</Card.Title>
             <Card.Img variant="top" src={choogle} />
+            <Card.Body>
+              <Card.Text>
+                Secure location to reference and save URLs and cheat sheets for
+                web development. Built with MERN Stack, React-Router,
+                Materialize CSS.
+              </Card.Text>
+            </Card.Body>
+            <Card.Footer>
+              <Card.Link href="https://github.com/kmeersman624/Choogle">
+                GitHub
+              </Card.Link>
+              <Card.Link href="https://chooglefoo.herokuapp.com/login">
+                Live
+              </Card.Link>
+            </Card.Footer>
+          </Card>
+        </Col>
+        <Col md={4} xl={2}>
+          <Card>
+            <Card.Title>Flawless Launches</Card.Title>
+            <Card.Img variant="top" src={flawless} />
             <Card.Body>
               <Card.Text>
                 Secure location to reference and save URLs and cheat sheets for
