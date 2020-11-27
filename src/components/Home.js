@@ -28,17 +28,18 @@ function Home() {
         <h5>
           <b>Technical Skills:</b>
         </h5>
-        Computer Science applied to JavaScript:{" "}
+        {/* Computer Science applied to JavaScript:{" "}
         <i>Design Patterns • Algorithms</i>
         <br />
-        <br />
+        <br /> */}
         Browser Based Technologies:{" "}
         <i>
-          HTML • CSS • JavaScript • jQuery • Responsive Design • Bootstrap •
-          Handlebars{" "}
+          HTML • CSS • JavaScript • jQuery • Responsive Design • Bootstrap • PHP
+          • Handlebars{" "}
         </i>
         <br />
-        Deployment: <i>Heroku • Git</i>
+        <br />
+        Deployment: <i>Heroku • Git • Netlify</i>
         <br />
         <br />
         Databases: <i>MySQL • MongoDB</i>
